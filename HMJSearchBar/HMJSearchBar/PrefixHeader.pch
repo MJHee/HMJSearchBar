@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  HMJSearchBar
+//
+//  Created by MJHee on 16/9/2.
+//  Copyright © 2016年 MJHee. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+
+//是否为什么设备
+#define DT_IS_IPHONE4  (DT_SCREEN_MAIN_HEIGHT <= 480)
+#define DT_IS_IPHONE5  (DT_SCREEN_MAIN_HEIGHT == 568)
+#define DT_IS_IPHONE6  (DT_SCREEN_MAIN_HEIGHT == 667)
+#define DT_IS_IPHONE6P (DT_SCREEN_MAIN_HEIGHT == 736)
+
+#endif /* PrefixHeader_pch */
