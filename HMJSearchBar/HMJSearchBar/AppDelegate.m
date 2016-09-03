@@ -25,7 +25,8 @@
 
     // 设置根控制器
     ViewController *vc = [[ViewController alloc] init];
-    self.window.rootViewController = vc;
+    NavigationViewController *nav = [[NavigationViewController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nav;
 
     // 可见
     [self.window makeKeyAndVisible];
