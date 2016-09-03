@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F1D2C6C1D7953CF007E5B11 /* HMJSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1D2C6B1D7953CF007E5B11 /* HMJSchool.m */; };
+		6F1D2C6F1D795404007E5B11 /* HMJSchoolTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1D2C6E1D795404007E5B11 /* HMJSchoolTool.m */; };
+		6F1D2C721D7963B9007E5B11 /* HMJSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1D2C711D7963B9007E5B11 /* HMJSearchViewController.m */; };
+		6F1D2C751D798126007E5B11 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1D2C731D7971BC007E5B11 /* libsqlite3.0.tbd */; };
 		6FE70E101D76CEF40012E414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE70E0F1D76CEF40012E414 /* main.m */; };
 		6FE70E131D76CEF40012E414 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE70E121D76CEF40012E414 /* AppDelegate.m */; };
 		6FE70E161D76CEF40012E414 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE70E151D76CEF40012E414 /* ViewController.m */; };
@@ -36,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F1D2C691D792A27007E5B11 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6F1D2C6A1D7953CF007E5B11 /* HMJSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMJSchool.h; sourceTree = "<group>"; };
+		6F1D2C6B1D7953CF007E5B11 /* HMJSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMJSchool.m; sourceTree = "<group>"; };
+		6F1D2C6D1D795404007E5B11 /* HMJSchoolTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMJSchoolTool.h; sourceTree = "<group>"; };
+		6F1D2C6E1D795404007E5B11 /* HMJSchoolTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMJSchoolTool.m; sourceTree = "<group>"; };
+		6F1D2C701D7963B9007E5B11 /* HMJSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMJSearchViewController.h; sourceTree = "<group>"; };
+		6F1D2C711D7963B9007E5B11 /* HMJSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMJSearchViewController.m; sourceTree = "<group>"; };
+		6F1D2C731D7971BC007E5B11 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		6FE70E0B1D76CEF40012E414 /* HMJSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMJSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE70E0F1D76CEF40012E414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FE70E111D76CEF40012E414 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1D2C751D798126007E5B11 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +98,7 @@
 		6FE70E021D76CEF40012E414 = {
 			isa = PBXGroup;
 			children = (
+				6F1D2C731D7971BC007E5B11 /* libsqlite3.0.tbd */,
 				6FE70E0D1D76CEF40012E414 /* HMJSearchBar */,
 				6FE70E271D76CEF40012E414 /* HMJSearchBarTests */,
 				6FE70E321D76CEF40012E414 /* HMJSearchBarUITests */,
@@ -109,10 +123,17 @@
 				6FE70E121D76CEF40012E414 /* AppDelegate.m */,
 				6FE70E141D76CEF40012E414 /* ViewController.h */,
 				6FE70E151D76CEF40012E414 /* ViewController.m */,
+				6F1D2C701D7963B9007E5B11 /* HMJSearchViewController.h */,
+				6F1D2C711D7963B9007E5B11 /* HMJSearchViewController.m */,
 				6FE70E411D76D2E80012E414 /* NavigationViewController.h */,
 				6FE70E421D76D2E80012E414 /* NavigationViewController.m */,
 				6FE70E441D76D4B40012E414 /* UIView+Extension.h */,
 				6FE70E451D76D4B40012E414 /* UIView+Extension.m */,
+				6F1D2C6A1D7953CF007E5B11 /* HMJSchool.h */,
+				6F1D2C6B1D7953CF007E5B11 /* HMJSchool.m */,
+				6F1D2C6D1D795404007E5B11 /* HMJSchoolTool.h */,
+				6F1D2C6E1D795404007E5B11 /* HMJSchoolTool.m */,
+				6F1D2C691D792A27007E5B11 /* PrefixHeader.pch */,
 				6FE70E1A1D76CEF40012E414 /* Assets.xcassets */,
 				6FE70E1C1D76CEF40012E414 /* LaunchScreen.storyboard */,
 				6FE70E1F1D76CEF40012E414 /* Info.plist */,
@@ -276,11 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1D2C721D7963B9007E5B11 /* HMJSearchViewController.m in Sources */,
 				6FE70E461D76D4B40012E414 /* UIView+Extension.m in Sources */,
+				6F1D2C6F1D795404007E5B11 /* HMJSchoolTool.m in Sources */,
 				6FE70E431D76D2E80012E414 /* NavigationViewController.m in Sources */,
 				6FE70E161D76CEF40012E414 /* ViewController.m in Sources */,
 				6FE70E131D76CEF40012E414 /* AppDelegate.m in Sources */,
 				6FE70E101D76CEF40012E414 /* main.m in Sources */,
+				6F1D2C6C1D7953CF007E5B11 /* HMJSchool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HMJSearchBar/PrefixHeader.pch;
 				INFOPLIST_FILE = HMJSearchBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,6 +458,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HMJSearchBar/PrefixHeader.pch;
 				INFOPLIST_FILE = HMJSearchBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -506,6 +534,7 @@
 				6FE70E3A1D76CEF40012E414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FE70E3B1D76CEF40012E414 /* Build configuration list for PBXNativeTarget "HMJSearchBarTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +543,7 @@
 				6FE70E3D1D76CEF40012E414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FE70E3E1D76CEF40012E414 /* Build configuration list for PBXNativeTarget "HMJSearchBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +552,7 @@
 				6FE70E401D76CEF40012E414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
